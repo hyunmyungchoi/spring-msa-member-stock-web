@@ -17,7 +17,7 @@
                 },
     "dependencies":  {
                          "@reduxjs/toolkit":  "2.11.2",
-                         "@hyunmyungchoi/member-common":  "workspace:*",
+                         "@hyunmyungchoi/member-common":  "0.1.0",
                          "axios":  "1.18.0",
                          "react":  "19.2.6",
                          "react-dom":  "19.2.6",
@@ -45,3 +45,4 @@
                             "vitest":  "3.2.4"
                         }
 }
+
