@@ -17,7 +17,7 @@
                 },
     "dependencies":  {
                          "@reduxjs/toolkit":  "2.11.2",
-                         "@springmsa/member-common":  "workspace:*",
+                         "@hyunmyungchoi/member-common":  "workspace:*",
                          "axios":  "1.18.0",
                          "react":  "19.2.6",
                          "react-dom":  "19.2.6",

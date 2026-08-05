@@ -1,5 +1,5 @@
-﻿import { memberRequest } from "@springmsa/member-common/api/memberApiClient";
-import type { UserServiceMeResponse } from "@springmsa/member-common/types/userSession";
+import { memberRequest } from "@hyunmyungchoi/member-common/api/memberApiClient";
+import type { UserServiceMeResponse } from "@hyunmyungchoi/member-common/types/userSession";
 import type { Candle, MarketWorkspace } from "../types/marketData";
 import type { StockWatchItem, StockWatchItemPayload } from "../types/stockWatchItem";
 

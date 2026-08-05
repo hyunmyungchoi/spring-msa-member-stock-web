@@ -1,13 +1,13 @@
-﻿import { StrictMode } from "react";
+import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import UserAuthLayout from "@springmsa/member-common/layouts/UserAuthLayout";
-import UserLayout from "@springmsa/member-common/layouts/UserLayout";
-import UserAuthPage from "@springmsa/member-common/pages/UserAuthPage";
-import { userStore } from "@springmsa/member-common/store/userStore";
-import "@springmsa/member-common/App.css";
-import "@springmsa/member-common/index.css";
+import UserAuthLayout from "@hyunmyungchoi/member-common/layouts/UserAuthLayout";
+import UserLayout from "@hyunmyungchoi/member-common/layouts/UserLayout";
+import UserAuthPage from "@hyunmyungchoi/member-common/pages/UserAuthPage";
+import { userStore } from "@hyunmyungchoi/member-common/store/userStore";
+import "@hyunmyungchoi/member-common/App.css";
+import "@hyunmyungchoi/member-common/index.css";
 import StockEntryPage from "./pages/StockEntryPage";
 
 createRoot(document.getElementById("root")!).render(
